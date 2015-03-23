@@ -45,13 +45,13 @@ h2 {
 	position: absolute;
 	top: 20px;
 	left: 20px;
-	text-align: right;
+	text-align: left;
 }
 
 #services {
 	position: absolute;
 	bottom: 20px;
-	left: 20px;
+	right: 20px;
 }
 
 #services img{
