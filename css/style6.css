@@ -15,10 +15,10 @@ a:focus{
 body {
 	font-size:100%;
 	font-family:'Roboto', Optima, Verdana, Geneva, sans-serif;
-	color: white;
+	color: black;
 }
 html { 
-	background: url(../images/maks3.jpg) no-repeat left top fixed; 
+	background: url(../images/maks2.jpg) no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -59,7 +59,7 @@ h2 {
 }
 
 #services .fa{
-  color: white;
+  color: black;
   afont-size: 2em;
 }
 
@@ -72,7 +72,7 @@ h2 {
 }
 
 #services .fa-lg:hover > .fa-inverse{
-  color: black;
+  color: white;
 }
 
 #services .fa-circle{

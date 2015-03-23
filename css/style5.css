@@ -18,7 +18,7 @@ body {
 	color: white;
 }
 html { 
-	background: url(../images/maks3.jpg) no-repeat left top fixed; 
+	background: url(../images/bbc1.jpg) no-repeat right center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -44,14 +44,14 @@ h2 {
 #name {
 	position: absolute;
 	top: 20px;
-	right: 70px;
-	text-align: right;
+	left: 20px;
+	text-align: left;
 }
 
 #services {
 	position: absolute;
 	bottom: 20px;
-	left: 20px;
+	right: 20px;
 }
 
 #services img{
