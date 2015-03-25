@@ -1,4 +1,20 @@
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited{
+  color: white;
+  text-decoration: none;
+}
+
+a:focus{
+  outline: none;
+}
+
 body {
+	font-size:100%;
+	font-family:'Roboto', Optima, Verdana, Geneva, sans-serif;
 	color: black;
 }
 html { 
@@ -7,6 +23,21 @@ html {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+}
+
+h1 {
+	font-weight:300;
+	font-size: 7vw;
+	padding: 0px;
+	margin: 0px;
+}
+
+h2 {
+	font-weight:300;
+	font-size: 2.8vw;
+	padding: 0px;
+	margin: 0px;
+
 }
 
 #name {
@@ -24,6 +55,10 @@ html {
 	right: 20px;
 }
 
+#services img{
+	height: 40px;
+}
+
 #services .fa{
   color: black;
   afont-size: 2em;
@@ -31,7 +66,6 @@ html {
 
 #services .fa-circle{
   opacity: 0.8;
-  text-shadow: 0px 0px 4px #888888;
 }
 
 #services .fa-inverse{
@@ -42,6 +76,9 @@ html {
   color: white;
 }
 
+#services .fa-circle{
+  text-shadow: 0px 0px 4px #888888;
+}
 #services .fa-lg:hover > .fa-circle{
   text-shadow: 0px 0px 4px #ffffff;
 }
